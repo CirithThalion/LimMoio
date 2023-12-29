@@ -1,0 +1,73 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    font-family: 'Nunito', sans-serif;   
+}
+
+#container{
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    background-color: hsla(0, 0%, 0%, 0.486);
+    padding: 100px;
+    border-radius: 25px;
+}
+
+img{
+    width: 30%;
+    height: auto;
+}
+
+header h1{
+    font-size: 45px;
+    color: #00dd00;
+    margin: 10px;
+}
+
+nav{
+    background-color: #00dd00;
+    padding: 10px;
+}
+
+header, nav{
+    text-align: center;
+}
+
+section{
+    margin-top: 25px;
+    color: white;
+}
+
+section > span{
+    font-size: 25px;
+}
+
+section > span::before{
+    content: "\21A6";
+}
+
+#charge1, #charge2, #charge3{
+    height: 25px;
+    border-end-end-radius: 25px;
+    padding-left: 25px;
+    color: transparent;
+}
+
+#charge1{ 
+    width: 15%;
+    background-color: #c02a2a;
+}
+
+#charge2{
+    width: 72%;
+    background-color: #93e213;
+}
+
+#charge3{
+    width: 43%;
+    background-color: #ffb835;
+}
+
+#charge1:hover, #charge2:hover, #charge3:hover{
+    color: white
+}
